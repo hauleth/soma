@@ -31,7 +31,7 @@ let bar: usize = try_some!(foo); // This will return with `None` if `foo` is
 //     None => return None,
 // }
 
-let baz: usize - try_some!(foo => return); // This will break execution if `foo`
+let baz: usize = try_some!(foo => return); // This will break execution if `foo`
                                            // is `None`
 // equivalent to
 //
