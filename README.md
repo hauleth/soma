@@ -2,7 +2,7 @@
 
 Simple macro to simplify `Option` handling in Rust.
 
-This is my answer to [RFC 1303](rust-lang/rfcs#1303) issue.
+This is my answer to [RFC 1303](https://github.com/rust-lang/rfcs/issues/1303) issue.
 
 ## Installation
 
