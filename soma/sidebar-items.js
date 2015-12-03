@@ -1,0 +1,1 @@
+initSidebarItems({"macro":[["try_some!","Helper macro for unwrapping `Option` values while returning early from function if value is `None`. `try_some!(expr)` should be used only if function return type is `Option` and `try_some!(expr => return)` should be used only if function return type is `()`."]]});
