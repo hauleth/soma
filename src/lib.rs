@@ -1,4 +1,7 @@
 #[macro_export]
+/// Helper macro for unwrapping `Option` values while returning early from function if value
+/// is `None`. `try_some!(expr)` should be used only if function return type is `Option` and
+/// `try_some!(expr => return)` should be used only if function return type is `()`.
 macro_rules! try_some {
     ($expr:expr) => (match $expr {
         ::std::option::Option::Some(val) => val,

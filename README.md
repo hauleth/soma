@@ -43,4 +43,4 @@ let baz: usize - try_some!(foo => return); // This will break execution if `foo`
 
 ## License
 
-Check out [LICENSE][] file.
+Check out [LICENSE](LICENSE) file.
