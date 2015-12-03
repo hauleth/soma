@@ -2,6 +2,10 @@
 name = "soma"
 version = "0.1.0"
 authors = ["Łukasz Jan Niemier <lukasz@niemier.pl>"]
+description = "Simplify `Option` usage"
+license = "WTFPL"
+documentation = "http://lukasz.niemier.pl/soma"
+repository = "https://github.com/hauleth/soma"
 
 [features]
 unstable = []
